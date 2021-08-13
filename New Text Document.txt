@@ -1,0 +1,29 @@
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+<div class="container">
+        <img src="./Image/frontimage.jpg" alt="">
+
+        <form class="signup">
+            <h1><br>Sign Up<br></h1>
+            <label for="name"><br>Name<br></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+            <label for="email"><br>Email<br></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+            <label for="password"><br>Password<br></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <label for="Confirm Password"><br>Password<br></label>
+            <input type="password" name="reppassword" required><br>
+            <button>Sign Up</button>
+
+            <hr>
+            <p class="or">connect with</p>
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-facebook"></a>
+
+
+            <p>Already have an account</p>
+            <button>Login</button>
+        </form>
+    </div>
