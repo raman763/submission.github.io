@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <title>Sign Up</title>
 </head>
 
 <body>
     <div class="background">
         <div class="multicontainer">
-            <img class="sideimage" src="./frontimage.jpg" alt="link">
+            <img class="sideimage" src="./Image/frontimage.jpg" alt="link">
 
             <div class="design">
 
@@ -21,12 +22,13 @@
                 <form>
                     <div class="container"></div>
                     <h1><br>Login<br></h1>
-                    <label for="email"><br>Email<br></label>
-                    <input type="email" name="email" required>
-
-                    <label for="password"><br>Password<br></label>
-                    <input type="password" name="password" required>
-
+                    <label for="email" ><br>Email<br></label>
+                    <input type="email" name="email" required pattern=".+@gmail\.com">
+                    <p>
+                        <label for="password"><br>Password<br></label>
+                        <input type="password" name="password" required minlength="5" maxlength="12" size="12">
+                        <i class="bi bi-eye-slash" id="togglePassword"></i>
+                    </p>
 
 
                     <div class="btn">
@@ -37,10 +39,10 @@
                 <hr>
                 <p class="or">or connect with</p>
                 <div class="socialmedia">
-                    <a href="https://www.microsoft.com/en-in"><img src="./microsoft.png" alt=""></a>
-                    <a href="https://www.facebook.com/"><img src="./facebook.png" alt=""></a>
-                    <a href="https://www.google.com/"><img src="./search.png" alt=""></a>
-                    <a href="https://in.linkedin.com/"><img src="./linkedin.png" alt=""></a>
+                    <a href="https://www.microsoft.com/en-in"><img src="./Image/microsoft.png" alt=""></a>
+                    <a href="https://www.facebook.com/"><img src="./Image/facebook.png" alt=""></a>
+                    <a href="https://www.google.com/"><img src="./Image/search.png" alt=""></a>
+                    <a href="https://in.linkedin.com/"><img src="./Image/linkedin.png" alt=""></a>
                 </div>
                 <div class="Already">
                     <h3>Don't have an account? <a href="./index.html"> Signup</a></h3>
