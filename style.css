@@ -44,10 +44,18 @@ button{
     color: white;
     border-radius: 9px;
 }
+bbutton:hover{
+    background-color: lightblue;
+    
+}
+
 .btn{
     text-align: center;
     padding: 7px 26px;
     font-size: 14px
+}
+.btn:hover{
+background-color:lightblue
 }
 hr{
         /* margin-top: -26px; */
