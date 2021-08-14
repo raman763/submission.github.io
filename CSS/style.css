@@ -7,6 +7,11 @@
 h1{
     text-align: center;
 }
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #238eea;
+}
 body{
     background-image: linear-gradient(to right bottom,#66b6fb,hsl(208, 95%, 69%), #7ba4f9, #839dfa, #8d95fa);
     
